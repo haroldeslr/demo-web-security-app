@@ -35,14 +35,14 @@
             <div id="recaptcha-container"></div>
             <br />
 
-            <input id="send-otp-button" class="btn btn-primary shadow-2 mb-2" value="Send OTP" onclick="phoneAuth()" />
+            <input type="button" id="send-otp-button" class="btn btn-primary shadow-2 mb-2" value="Send OTP" onclick="phoneAuth()" />
           </form>
           <form id="verify-code-form" class="mt-4 d-none">
             <div class="form-group">
               <input id="verificationCode" type="number" class="form-control" placeholder="Verification code" required />
             </div>
 
-            <input class="btn btn-success shadow-2 mb-2" value="Verify Code" onclick="codeverify()" />
+            <input type="button" class="btn btn-success shadow-2 mb-2" value="Verify Code" onclick="codeverify()" />
           </form>
         </div>
       </div>
